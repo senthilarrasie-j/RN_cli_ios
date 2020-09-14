@@ -9,7 +9,7 @@
 @react-navigation/drawer
 @react-navigation/native
 @react-navigation/stack
-react-native-calendars ** both (android)
+react-native-calendars ** both (ios & android)
 react-native-elements ** both (ios & android)
 react-native-fbsdk
 react-native-gesture-handler
