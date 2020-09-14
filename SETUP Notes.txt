@@ -10,16 +10,54 @@
 @react-navigation/native
 @react-navigation/stack
 react-native-calendars
-react-native-elements
+react-native-elements **DONE**
 react-native-fbsdk
 react-native-gesture-handler
 react-native-localize
 react-native-reanimated
 react-native-safe-area-context
 react-native-screens
-react-native-vector-icons
+react-native-vector-icons **DONE**
 react-native-webview
 react-redux
 redux
 stripe
 tipsi-stripe
+
+
+*********************************************************
+
+
+react-native-elements, 
+react-native-vector-icons
+
+yarn add react-native-elements
+
+cd ios
+
+pod install
+
+cd - (go up one directory)
+
+inside ios folder -> info.plist
+	https://github.com/oblador/react-native-vector-icons/issues/965
+	<key>UIAppFonts</key>
+	  <array>
+	    <string>AntDesign.ttf</string>
+	    <string>Entypo.ttf</string>
+	    <string>EvilIcons.ttf</string>
+	    <string>Feather.ttf</string>
+	    <string>FontAwesome.ttf</string>
+	    <string>FontAwesome5_Brands.ttf</string>
+	    <string>FontAwesome5_Regular.ttf</string>
+	    <string>FontAwesome5_Solid.ttf</string>
+	    <string>Foundation.ttf</string>
+	    <string>Ionicons.ttf</string>
+	    <string>MaterialIcons.ttf</string>
+	    <string>MaterialCommunityIcons.ttf</string>
+	    <string>SimpleLineIcons.ttf</string>
+	    <string>Octicons.ttf</string>
+	    <string>Zocial.ttf</string>
+	  </array>
+
+*****************************************************************
