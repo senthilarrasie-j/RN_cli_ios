@@ -1,26 +1,26 @@
-@react-native-community/async-storage ** android
+@react-native-community/async-storage ** both (ios & android)
 @react-native-community/google-signin
-@react-native-community/masked-view ** android
+@react-native-community/masked-view ** both (ios & android)
 @react-native-community/toolbar-android
 @react-native-firebase/app
 @react-native-firebase/auth
 @react-native-firebase/firestore
 @react-native-firebase/functions
-@react-navigation/drawer
-@react-navigation/native
-@react-navigation/stack
+@react-navigation/drawer ** android
+@react-navigation/native ** both (ios & android)
+@react-navigation/stack ** both (ios & android)
 react-native-calendars ** both (ios & android)
 react-native-elements ** both (ios & android)
 react-native-fbsdk
-react-native-gesture-handler ** android
-react-native-localize ** android
-react-native-reanimated ** android
-react-native-safe-area-context ** android
-react-native-screens ** android
+react-native-gesture-handler ** both (ios & android)
+react-native-localize ** both (ios & android)
+react-native-reanimated ** both (ios & android)
+react-native-safe-area-context ** both (ios & android)
+react-native-screens ** both (ios & android)
 react-native-vector-icons ** ios
 react-native-webview
-react-redux ** android
-redux ** android
+react-redux ** both (ios & android)
+redux ** both (ios & android)
 stripe
 tipsi-stripe
 
