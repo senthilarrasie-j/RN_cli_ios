@@ -52,11 +52,7 @@ const App: () => React$Node = () => {
             </Text>
             <Calendar
               // Initially visible month. Default = Date()
-              current={'2012-03-01'}
-              // Minimum date that can be selected, dates before minDate will be grayed out. Default = undefined
-              minDate={'2012-05-10'}
-              // Maximum date that can be selected, dates after maxDate will be grayed out. Default = undefined
-              maxDate={'2012-05-30'}
+              current={'2020-14-09'}
               // Handler which gets executed on day press. Default = undefined
               onDayPress={(day) => {
                 console.log('selected day', day);
@@ -72,7 +68,7 @@ const App: () => React$Node = () => {
                 console.log('month changed', month);
               }}
               // Hide month navigation arrows. Default = false
-              hideArrows={true}
+              hideArrows={false}
               // Replace default arrows with custom ones (direction can be 'left' or 'right')
               renderArrow={(direction) => <Arrow />}
               // Do not show days of other months in month page. Default = false
