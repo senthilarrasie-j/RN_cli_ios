@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -17,7 +17,10 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as RNLocalize from 'react-native-localize';
 
-const App: () => React$Node = () => {
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+
+function HomeScreen() {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -81,8 +84,20 @@ const App: () => React$Node = () => {
       </SafeAreaView>
     </>
   );
-};
+}
 
-const styles = StyleSheet.create({});
+const Stack = createStackNavigator();
+
+function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
 
 export default App;
+
+const styles = StyleSheet.create({});
