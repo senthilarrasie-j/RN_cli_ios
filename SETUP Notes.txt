@@ -10,14 +10,14 @@
 @react-navigation/native
 @react-navigation/stack
 react-native-calendars
-react-native-elements **DONE**
+react-native-elements -> both (ios & android)
 react-native-fbsdk
 react-native-gesture-handler
 react-native-localize
 react-native-reanimated
 react-native-safe-area-context
 react-native-screens
-react-native-vector-icons **DONE**
+react-native-vector-icons -> ios
 react-native-webview
 react-redux
 redux
