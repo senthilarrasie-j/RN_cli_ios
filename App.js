@@ -13,6 +13,9 @@ import {Button} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import {Calendar} from 'react-native-calendars';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as RNLocalize from 'react-native-localize';
 
 const App: () => React$Node = () => {
   return (
