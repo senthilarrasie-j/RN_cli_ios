@@ -1,4 +1,4 @@
-@react-native-community/async-storage
+@react-native-community/async-storage ** android
 @react-native-community/google-signin
 @react-native-community/masked-view
 @react-native-community/toolbar-android
@@ -10,17 +10,17 @@
 @react-navigation/native
 @react-navigation/stack
 react-native-calendars
-react-native-elements -> both (ios & android)
+react-native-elements ** both (ios & android)
 react-native-fbsdk
 react-native-gesture-handler
-react-native-localize
+react-native-localize ** android
 react-native-reanimated
 react-native-safe-area-context
 react-native-screens
-react-native-vector-icons -> ios
+react-native-vector-icons ** ios
 react-native-webview
-react-redux
-redux
+react-redux ** android
+redux ** android
 stripe
 tipsi-stripe
 
