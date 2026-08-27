@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1010089604187-i5gjc0t5l83da9sjcj7ci3b7ai1ku0tm.apps.googleusercontent.com</string>
+	<string>1010089604187-xxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1010089604187-i5gjc0t5l83da9sjcj7ci3b7ai1ku0tm</string>
+	<string>com.googleusercontent.apps.1010089604187-xxxxxxxxxxxxxxxxxxxxxxxxxx</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>1010089604187-29lfsht6n5agng8da3gl7pcjrc4kk06m.apps.googleusercontent.com</string>
+	<string>1010089604187-xxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAcM3U1hjXQJGNnx7BLszKOpSjSyAEaoQg</string>
+	<string>AIzaSyAcM3U1hjXQJGNnxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
 	<key>GCM_SENDER_ID</key>
 	<string>1010089604187</string>
 	<key>PLIST_VERSION</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1010089604187:ios:f674442571ed16675c3b7e</string>
+	<string>1:1010089604187:ios:xxxxxxxxxxxxxxxxxxxxxxxxxx</string>
 	<key>DATABASE_URL</key>
 	<string>https://feastle-apps.firebaseio.com</string>
 </dict>
